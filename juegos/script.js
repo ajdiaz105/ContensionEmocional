@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const container = document.getElementById('circle-container');
-    const maxCircles = 30;
+    const maxCircles = 20;
     let circleCount = 0;
 
     container.addEventListener('click', function(event) {
