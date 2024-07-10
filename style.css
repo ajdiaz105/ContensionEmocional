@@ -1,106 +1,31 @@
-/*Estilos Menu*/
-
-body {
-  font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: normal;
+.Titulo-1 {
+  font-family: 'PT Serif', serif;
+  font-size: 1.5rem;
 }
 
-header{
-  display: flex;
-  height: 120px;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ffffff;
-  padding: 10px;
+.introductions_sec .container,
+.reason_sec .container,
+.efects_sec .container,
+.solutions_sec .container,
+.contact_sec .container {
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 1rem;
 }
 
-.ct_header{
-  display: flex;
-  align-items: center;
+header img {
+  max-height: 60px;
 }
 
-.ct_header img{
-  height: 120px;
-  margin-right: 120px;
+.introductions_sec h2,
+.reason_sec h3,
+.efects_sec h3,
+.solutions_sec h3,
+.contact_sec h3 {
+  color: #007bff;
 }
 
-.ct_header h1{
-  font-size: 35px;
-  font-weight: bolder;
-  color: #164284;
-}
-
-.ct_menu{
-  position: absolute;
-  vertical-align: baseline;
-  right: 80px;
-
-}
-
-.ct_menu ul{
-  list-style-type: none;
-}
-.ct_menu li{
-  display: inline;
-  margin: 0 0 0 40px;
-  text-decoration: none;  
-}
-
-.ct_menu a{
-  text-decoration: none;
-  font-size: 25px;
-  color: #00A0DD;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-
-/*Estilos introduccion*/
-
-.introductions_sec{
-  display: flex;
-  background-color: #F2FAFD;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 400px;
-  margin: 0;
-  padding: 0;
-}
-
-.introductions_sec img{
-  border: 0;
-  max-width: 70%;
-  max-height: 90%;
-  vertical-align: middle;
-  margin: 10% 10% 10% 10%;
-  border-radius: 5px;
-}
-.introductions_sec img:hover{
-  transform: scale(1.15);
-}
-
-.ct_introduction{
-  display: block;
-  justify-content: flex-end;
-  max-width: 84%
-}
-.ct_introduction h2{
-  font-size: 28px;
-  font-weight: bold;
-  letter-spacing: -.03em;
-}
-.ct_introduction p{
-  font-size: 20px;
-  font-weight: normal;
-  letter-spacing: -.03em;
-  padding-right: 8%;  
-  text-align: justify;
-}
-
-@media screen and (max-width:480px){
-  .introductions_sec{
-      height: 70%;
-  }
+footer {
+  background-color: #343a40;
+  color: #ffffff;
 }
